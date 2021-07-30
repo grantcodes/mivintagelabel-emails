@@ -1,0 +1,10 @@
+<!-- Nav -->
+<mj-column>
+  <mj-navbar base-url="https://mivintagelabel.com" hamburger="hamburger">
+    <mj-navbar-link href="/gettings-started-onboard">New In</mj-navbar-link>
+    <mj-navbar-link href="/try-it-live">Vintage</mj-navbar-link>
+    <mj-navbar-link href="/templates">Clothing</mj-navbar-link>
+    <mj-navbar-link href="/components">Accessories</mj-navbar-link>
+    <mj-navbar-link href="/components">Sneakers</mj-navbar-link>
+  </mj-navbar>
+</mj-column>

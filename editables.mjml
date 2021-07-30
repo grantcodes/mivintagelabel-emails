@@ -1,0 +1,72 @@
+<!-- Make things editable in mailchimo -->
+<mj-html-attributes>
+  <!-- Full width image -->
+  <mj-selector path=".full-width-image">
+    <mj-html-attribute name="mc:repeatable"
+      >full-width-image-container</mj-html-attribute
+    >
+  </mj-selector>
+  <mj-selector path=".full-width-image img">
+    <mj-html-attribute name="mc:edit">full-width-image</mj-html-attribute>
+  </mj-selector>
+
+  <!-- Large project -->
+  <mj-selector path=".product--large">
+    <mj-html-attribute name="mc:repeatable">large-product</mj-html-attribute>
+  </mj-selector>
+  <mj-selector path=".product--large img">
+    <mj-html-attribute name="mc:edit">large-product-image</mj-html-attribute>
+  </mj-selector>
+  <mj-selector path=".product--large .product__text > div">
+    <mj-html-attribute name="mc:edit">large-product-text</mj-html-attribute>
+  </mj-selector>
+  <mj-selector path=".product--large .product__button">
+    <mj-html-attribute name="mc:edit">large-product-button</mj-html-attribute>
+  </mj-selector>
+
+  <!-- Product grid -->
+  <mj-selector path=".product-grid">
+    <mj-html-attribute name="mc:repeatable">product-grid</mj-html-attribute>
+  </mj-selector>
+  <mj-selector path=".product-grid .product:nth-child(1) img">
+    <mj-html-attribute name="mc:edit"
+      >product-grid__product-1-image</mj-html-attribute
+    >
+  </mj-selector>
+  <mj-selector path=".product-grid .product:nth-child(1) .product__text > div">
+    <mj-html-attribute name="mc:edit"
+      >product-grid__product-1-text</mj-html-attribute
+    >
+  </mj-selector>
+  <mj-selector path=".product-grid .product:nth-child(1) .product__button">
+    <mj-html-attribute name="mc:edit"
+      >product-grid__product-1-button</mj-html-attribute
+    >
+  </mj-selector>
+  <mj-selector path=".product-grid .product:nth-child(2) img">
+    <mj-html-attribute name="mc:edit"
+      >product-grid__product-2-image</mj-html-attribute
+    >
+  </mj-selector>
+  <mj-selector path=".product-grid .product:nth-child(2) .product__text > div">
+    <mj-html-attribute name="mc:edit"
+      >product-grid__product-2-text</mj-html-attribute
+    >
+  </mj-selector>
+  <mj-selector path=".product-grid .product:nth-child(2) .product__button">
+    <mj-html-attribute name="mc:edit"
+      >product-grid__product-2-button</mj-html-attribute
+    >
+  </mj-selector>
+
+  <!-- Footer thing -->
+  <mj-selector path=".footer__text > div">
+    <mj-html-attribute name="mc:edit">footer-text</mj-html-attribute>
+  </mj-selector>
+  <mj-selector path=".footer__button">
+    <mj-html-attribute name="mc:edit">footer-button</mj-html-attribute>
+  </mj-selector>
+  <mj-selector path=".footer__image img">
+    <mj-html-attribute name="mc:edit">footer-image</mj-html-attribute>
+  </mj-selector>
+</mj-html-attributes>

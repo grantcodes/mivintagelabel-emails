@@ -1,0 +1,13 @@
+<mj-column>
+  <mj-social icon-size="30px" mode="horizontal">
+    <mj-social-element name="twitter-noshare" href="https://mjml.io/" />
+    <mj-social-element
+      name="instagram"
+      href="https://www.instagram.com/klueles_/"
+    />
+    <mj-social-element
+      name="facebook-noshare"
+      href="https://www.facebook.com/kluelescom/"
+    />
+  </mj-social>
+</mj-column>

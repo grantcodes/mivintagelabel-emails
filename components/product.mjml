@@ -1,0 +1,15 @@
+<mj-column mj-class="product" css-class="product">
+  <mj-image
+    css-class="product__image"
+    src="https://placeimg.com/400/250"
+    width="800px"
+    align="center"
+  />
+  <mj-text css-class="product__text">
+    <h2>Just In</h2>
+    <p>Wish list favourites</p>
+  </mj-text>
+  <mj-button css-class="product__button" href="https://klueles.com"
+    >Shop</mj-button
+  >
+</mj-column>
